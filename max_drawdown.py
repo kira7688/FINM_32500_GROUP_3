@@ -1,4 +1,4 @@
-def drawdown: 
+def drawdown(): 
     drawdowns = []
     prices = []
     peak = price[0]
