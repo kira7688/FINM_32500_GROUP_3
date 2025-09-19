@@ -1,5 +1,4 @@
-# FINM_32500_GROUP_3
-CSV-Based Algorithmic Trading Backtester
+# CSV-Based Algorithmic Trading Backtester
 Overview
 Design and implement a modular Python backtester that reads pre-generated market data from a CSV file, applies trading strategies, executes simulated orders, and produces a performance report. You will practice mutable versus immutable types, object-oriented design with abstract classes and inheritance, container management using lists and dictionaries, and robust exception handling.
 
