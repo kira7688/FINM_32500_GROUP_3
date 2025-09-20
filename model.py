@@ -7,10 +7,10 @@ class Order:
     symbol: str
     quantity: int
     price: float
-    status: str = "NEW"  # default; still immutable
+    status: str = "NEW"  # immutable
 
 @dataclass(frozen=True, slots=True)
 class MarketDataPoint:
     timestamp: datetime
     symbol: str
-    price: float
+    price: float  # immutable
